@@ -28,7 +28,7 @@ export default function RegisterType({type,sendTypeChanged}) {
 
             >
 
-                <Feather name="arrow-up" size={25} colo="#121212"/>
+                <Feather name="arrow-up" size={25} color="#121212"/>
                 <RegisterLabel>
                     Receita
                 </RegisterLabel>
@@ -39,7 +39,7 @@ export default function RegisterType({type,sendTypeChanged}) {
                  onPress={() => changeStatus('despesa')}
 
             >
-                <Feather name="arrow-down" size={25} colo="#121212"/>
+                <Feather name="arrow-down" size={25} color="#121212"/>
                 <RegisterLabel>
                   Despesa
                 </RegisterLabel>
